@@ -70,12 +70,12 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     
         if(msg.content === '.fu'){
-            msg.channel.send("Fucking fuck fuck hogaya")
+            msg.channel.send("*ORAY LG GAYE")
         }
         });
 client.on('message', msg =>{
     if(msg.content === '.mamba'){
-        msg.channel.send("Puttar tu acha internet lagwa lay")
+        msg.channel.send("Tauba Tauba Sara Mo..........", "disconnected", " Han mein kahan tha ....OD khrab krdia ")
     }
     });
 
