@@ -7,6 +7,27 @@ client.on('ready', () => {
 });
 
 client.on('message', msg =>{
+  if (msg.content.includes("hello")){
+      msg.reply(["Hello Baby Gurl.",
+      "Are you Lost?",
+      "https://www.instagram.com/usman._.h/"
+    ])
+  }
+});
+
+client.on('message', msg =>{
+  if (msg.content.includes("no")){
+      msg.reply(["Then why are you out of kitchen"])
+  }
+});
+
+client.on('message', msg =>{
+  if (msg.content.includes("No")){
+      msg.reply(["Then why are you out of kitchen"])
+  }
+});
+
+client.on('message', msg =>{
   if (msg.content.includes("Who is Pudding?")){
       msg.reply(["It looks like you're looking for an amazing person",
       "You can look for him at ",
